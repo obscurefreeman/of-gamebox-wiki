@@ -2,7 +2,7 @@
 
 > Play any HTML5 game in Gmod, anytime, anywhere.
 
-1. Ready-to-use, with built-in instructions, easy to use.
+1. With built-in instructions, easy to use.
 2. Beautiful interface, compatible with screens of different resolutions.
 3. It has an intuitive diagnostics page to help you quickly troubleshoot problems.
 4. Expandable, which means you can make your game packs and add tons of custom game customizations.
