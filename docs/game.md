@@ -48,24 +48,24 @@
 
 在`ofmg_extensions`文件夹下创建一个`lua`文件，并尽量用一个独特的名字来命名，以免和别人的扩展冲突。在这个文件里，给`OFMGCustomExtensions`创建一个新的表，并为其命名。同理，给这个表起一个独特的名字。
 
-=== "只有**一个**HTML文件"
+"只有**一个**HTML文件"
 
-    ```lua
-    OFMGCustomExtensions["Your Local Game"] = {
-        ["Type"] = "Game",--扩展的类型为本地游戏
-        ["Info"] = "your_local_game.html",--游戏位置
-        ["Image"] = "your_local_game",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
-        ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
-    }
-    ```
+```lua
+OFMGCustomExtensions["Your Local Game"] = {
+    ["Type"] = "Game",--扩展的类型为本地游戏
+    ["Info"] = "your_local_game.html",--游戏位置
+    ["Image"] = "your_local_game",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
+    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
+}
+```
 
-=== "含有**多个**HTML文件"    
+"含有**多个**HTML文件"    
 
-    ```lua
-    OFMGCustomExtensions["Your Multi-file Local Game"] = {
-        ["Type"] = "Game",--扩展的类型为本地游戏
-        ["Info"] = "your_multifile_local_game/index.html",--游戏位置
-        ["Image"] = "your_multifile_local_game",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
-        ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
-    }
-    ```
+```lua
+OFMGCustomExtensions["Your Multi-file Local Game"] = {
+    ["Type"] = "Game",--扩展的类型为本地游戏
+    ["Info"] = "your_multifile_local_game/index.html",--游戏位置
+    ["Image"] = "your_multifile_local_game",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
+    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
+}
+```
