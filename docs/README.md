@@ -1,13 +1,13 @@
-## 特色
+## Features
 
-> 随时随地，在Gmod中游玩任何HTML5游戏。
+> Play any HTML5 game in Gmod, anytime, anywhere.
 
-1. 打开即用，自带说明，易用性强。
-2. 美观的界面，兼容不同分辨率的屏幕。
-3. 具有直观的诊断页面，帮你快速排查出问题。
-4. 具有扩展功能，这意味着你可以制作自己的游戏包，添加海量自定义游戏自定义。
-5. 官方屏幕扩展已发布，可以在一块屏幕上玩任何小游戏。
+1. Ready-to-use, with built-in instructions, easy to use.
+2. Beautiful interface, compatible with screens of different resolutions.
+3. It has an intuitive diagnostics page to help you quickly troubleshoot problems.
+4. Expandable, which means you can make your game packs and add tons of custom game customizations.
+5. The official screen extension has been released, which can play any mini-games on one screen.
 
-## 使用方式
+## How to use
 
-在沙盒模式中，按住C键并点击游戏盒图标即可打开游戏盒。在非沙盒模式中，你也可以输入指令`of_mgmenu`打开它。
+In sandbox mode, you can open it by holding down the C key and tapping the gamebox icon. In non-sandbox mode, you can also type the command `of_mgmenu` to open it.
