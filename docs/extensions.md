@@ -1,35 +1,36 @@
-## 制作扩展
+# Make extensions
 
-自发布以来，我的游戏盒受到了一定程度上的关注。应网友的要求，我为游戏盒制作了扩展功能，让玩家可以添加制作自定义内容。
+My gamebox has received a fair amount of attention since its release. So I created an extension function for the gamebox, allowing players to create custom content.
 
-### 制作步骤
+## Steps
 
-#### 步骤1：了解原理
+### Step 1: Understanding the Principle
 
-`OFMGCustomExtensions`是一个全局变量，用于存储第三方扩展的信息。我的游戏盒会读取`lua/ofmg_extensions`下的所有`lua`文件，因此请将有关扩展信息的代码放在这个文件夹下。
+`OFMGCustomExtensions` is a global variable used to store information about third-party extensions. My Gamebox reads all `lua` files under `lua/ofmg_extensions`, so please put the code about extension information under this folder. 
 
-#### 步骤2：创建一个新的扩展
+### Step 2: Create a New Extension
 
-1，在你的扩展文件中，给`OFMGCustomExtensions`创建一个新的表，并为其命名。为避免和别人的插件冲突，请尽量用一个独特的名字来命名，加入自己用户名的缩写是一个好主意。
+1. In your extension file, create a new table for `OFMGCustomExtensions` and name it. To avoid conflicts with other people's extensions, please try to name it with a unique name, adding your own username's initials is a good idea. 
 
-2，在该表中，添加扩展的信息。
+2. In this table, add information about the extension.
 
-`Type`：指定扩展的类型。例如，`Entity`表示扩展是一个实体，`Game`表示它是一个游戏，`Game online`表示它是一个在线游戏，`Website`表示它是一个网站。
+`Type`: Specify the type of the extension. For example, `Entity` means that the extension is an entity, `Game` means that it is a game, `Game online` means that it is an online game, `Website` means that it is a website.
 
-`Info`：提供有关扩展的详细信息。如果扩展是实体，请填写实体的名称，如果是本地游戏则填写其路径，在线内容填写url。
+`Info`：Provides detailed information about the extension. If the extension is an entity, fill in the name of the entity, its path if it is a local game, and the url for online content. 
 
-`Image`：指定预览图的名称，如果扩展是实体的话不要填，插件会自动读取`entities`文件夹里的实体同名预览图。
+`Image`：Specify the name of the preview image, don't fill it if the extension is an entity, the gamebox will automatically read the entity preview image with the same name from the entities folder.
 
-`Compatible`：指示该扩展是否能兼容没有安装CEF的Gmod。如果兼容，请将其值设置为`true`，否则，设置为`false`。
+`Compatible`：Indicates whether or not the extension is compatible with Gmods that do not have the CEF installed. If it is compatible, set its value to `true`, otherwise, set it to `false`.
 
-3，准备扩展的预览图。
+3. Prepare the preview image of the extension.
 
-制作128*128大小的预览图（图片必须是正方形，可以使用更大尺寸的图片，但是不建议）。实体请放在`entities`文件夹里，游戏放在`entities/ofmg_games`里，网站放在`ofmg_websites`里。
+Make a 128 x 128 size preview (the image must be square, a larger image can be used, but it is not recommended). Please put the entities preview in the `entities` folder, the game in the `entities/ofmg_games`, and the website in the `ofmg_websites`.
 
-#### 步骤3：保存并发布你的扩展
+### Step 3: Save and Publish Your Extension
 
-完成扩展的编写后，请保存并在本地测试它。一旦测试完成便可以发布了。确保你的扩展信息正确添加且不会发生报错。
+Finish the extension's writing, save it and test it locally. Once the testing is complete you can publish it. Make sure your extension information is added correctly and no errors are reported.
 
-#### 步骤4：使用扩展
+### Step 4: Using the Extension
 
-当玩家安装了你的扩展后，他们可以通过访问扩展页面的对应标签来使用你制作的扩展。
+When players have installed your extension, they can use the extension you made by visiting the corresponding tab on the extension page.
+

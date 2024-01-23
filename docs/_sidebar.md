@@ -1,7 +1,7 @@
-<!-- docs/_sidebar.md -->
+
 
 * [Home]()
 * [Make extensions](extensions)
-* [Make games](game)
-* [Make online content](online)
+* [Add local content](game)
+* [Add online content](online)
 * [Make entities](entity)

@@ -1,6 +1,8 @@
-## 文件结构
+# Add local content
 
-这是**本地内容**的基本结构。
+## File structure
+
+This is the basic file structure of `local content`.
 
 ```
 .
@@ -21,51 +23,51 @@
          └─ your_multifile_local_game.png
 ```
 
-## 处理HTML文件
+## Process HTML files
 
-由于Gmod创意工坊不允许上传`html`文件，我们可以把它伪装成`Lua`文件，并用HTML Loader加载。
+Since the Gmod Workshop doesn't allow `html` files to be uploaded, we can disguise it as a `Lua` file and load it with the HTML Loader.
 
-- 如果只有一个`html`文件，请把它的后缀改为`.html.lua`放在`lua/html/includes/`文件夹里。
+- If there is only one `html` file, change its suffix to `.html.lua` and place it in the `lua/html/includes/` folder.
 
-- 如果有多个文件，你可以新建一个文件夹，这里以`your_multifile_local_game`为例，将`html`，`js`，`css`文件全部放进这个文件夹内，然后用`vsc`或记事本（如果你没有`vsc`的话）打开`html`文件，修改`js`和`css`的路径。
+- If it has multiple files, you can create a new folder, here take `your_multifile_local_game` as an example, put all the `html`, `js`, `css` files into this folder, and then open the `html` file with `vsc` or notepad (if you don't have `vsc`), and change the paths of `js` and `css`.
 
 
-### 修改`css`的路径
+### Modify the path of `css`
 
 ```html
 <link rel="stylesheet" href="your_multifile_local_game/style.css">
 ```
 
-### 修改`js`的路径
+### Modify the path of `js`
 
 ```html
 <script src="your_multifile_local_game/script.js"></script>
 ```
 
-修改完成后，别忘了把`css`文件的后缀改为`.css.lua`，把`js`文件的后缀改为`.js.lua`。
+After modifying the files, don’t forget to change the suffix of the `css` file to `css.lua` and the suffix of the `js` file to `js.lua`.
 
-## 填写扩展信息
+## Fill in extension information
 
-在`ofmg_extensions`文件夹下创建一个`lua`文件，并尽量用一个独特的名字来命名，以免和别人的扩展冲突。在这个文件里，给`OFMGCustomExtensions`创建一个新的表，并为其命名。同理，给这个表起一个独特的名字。
+Create a `lua` file in the `ofmg_extensions` folder, and try to name it with a unique name to avoid conflict with other people's extensions. In this file, create a new table for `OFMGCustomExtensions` and give it a name. Likewise, give this table a unique name.
 
-"只有**一个**HTML文件"
+Only **one** HTML file
 
 ```lua
 OFMGCustomExtensions["Your Local Game"] = {
-    ["Type"] = "Game",--扩展的类型为本地游戏
-    ["Info"] = "your_local_game.html",--游戏位置
-    ["Image"] = "your_local_game",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
-    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
+    ["Type"] = "Game",--Its type is local game.
+    ["Info"] = "your_local_game.html",--Location of the game.
+    ["Image"] = "your_local_game",--Name of the image. Please put the 128*128 preview image in the entities/ofmg_games folder.
+    ["Compatible"] = true,--Is it compatible with Gmod without CEF installed?
 }
 ```
 
-"含有**多个**HTML文件"    
+Contains **multiple** HTML files
 
 ```lua
 OFMGCustomExtensions["Your Multi-file Local Game"] = {
-    ["Type"] = "Game",--扩展的类型为本地游戏
-    ["Info"] = "your_multifile_local_game/index.html",--游戏位置
-    ["Image"] = "your_multifile_local_game",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
-    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
+    ["Type"] = "Game",---Its type is local game.
+    ["Info"] = "your_multifile_local_game/index.html",--Location of the game.
+    ["Image"] = "your_multifile_local_game",--Name of the image. Please put the 128*128 preview image in the entities/ofmg_games folder.
+    ["Compatible"] = true,--Is it compatible with Gmod without CEF installed?
 }
 ```

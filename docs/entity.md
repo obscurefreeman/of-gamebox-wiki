@@ -1,10 +1,10 @@
-# 制作实体
+# Make entities
 
-将你的画面投射到任何模型上。
+Play games on any model.
 
-## 文件结构
+## File structure
 
-这是`实体`的基本结构。
+This is the basic file structure of `entity`.
 
 ```
 .
@@ -19,21 +19,21 @@
       └─ your_entity.png
 ```
 
-## 填写扩展信息
+## Fill in extension information
 
-在`ofmg_extensions`文件夹下创建一个`lua`文件，这里我将其命名为`your_entity_info.lua`，不过请记住尽量用一个独特的名字来命名，以免和别人的扩展冲突。
+Create a `lua` file in the `ofmg_extensions` folder. Here I name it `your_entity_info.lua`, but please remember to name it with a unique name as much as possible to avoid conflict with other people's extensions.
 
 ```lua
 OFMGCustomExtensions["Your Entity"] = {
-    ["Type"] = "Entity",--类型为实体
-    ["Info"] = "your_entity",--填写你的实体名称
-    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
+    ["Type"] = "Entity",--Its type is entity.
+    ["Info"] = "your_entity",--Fill in the name of your entity.
+    ["Compatible"] = true,--Is it compatible with Gmod without CEF installed?
 }
 ```
 
-## 撰写实体代码
+## Write entity code
 
-获取被激活的画面并且判断是在线内容还是本地内容。
+Get the activated games and determine whether it's online or local content.
 
 
 ```lua
@@ -41,27 +41,27 @@ local page = ofmgactivate
 
 if string.sub(page, 1, 4) == "http" or string.sub(page, 1, 6) == "asset:" then
     self.Panel:OpenURL(page)
-    --如果是在线内容则打开网页。
+    --Open url if it's online.
 elseif string.sub(page, -5) == ".html" then
     self.Panel:OpenFile(page)
-    --如果是本地内容则打开文件。
+    --Open file if it is local content.
 else
     self.Panel:OpenFile("gamescreen.html")
-    --如果没有设置则打开默认本地网页。
+    --Opens the default local page if not set.
 end
 ```
 
-将画面投影到屏幕上。
+Paint the panel onto the screen.
 
 ```lua
 function ENT:Draw()
 	self:DrawModel()
 
 	self.ScreenOrigin = self:LocalToWorld(Vector(6,-28.9, 35.7))
-	--屏幕的位置
+	--Position of the screen.
 	cam.Start3D2D(self.ScreenOrigin, self:LocalToWorldAngles(Angle(0,90,90)), 0.0304)
 		self.Panel:PaintManual()
-    	--绘制面板
+    	--Paint the panel.
 	cam.End3D2D()
 end
 ```
