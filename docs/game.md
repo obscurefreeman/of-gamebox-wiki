@@ -2,6 +2,15 @@
 
 ![](https://obscureimage.netlify.app/posts/20240114192608_1.jpg)
 
+## Get the content
+
+Want to add local content to the gamebox? You'll need to get the source code that meets the requirements. Here are a few ways to get the code.
+
+1. Search on [Github](https://github.com/). Look for open-source `HTML5` games and see if their code meets the requirements. Be careful not to choose a game with a lot of pictures. **(Recommended)**
+2. Get it from the online code editor, [Code Pen](https://codepen.io/). A lot of front-end developers and designers will share their front-end code and projects on the **Code Pen**, and you can copy their code. **(Very recommended)**
+3. Get it from [js13kGames](https://js13kgames.com/). Find a game you like and head over to its open-source repository to get the source code. **js13kGames** is an annual `js` coding contest for web game developers since 2012. There is a condition for participating in this contest, and that is that the size of the game cannot exceed **13KB**. **(Recommended)**
+4. Make your own content. If you're familiar with `HTML`, you can make your own games in the gamebox. You can create a game based on your ideas and needs. **(Recommended)**
+
 ## File structure
 
 This is the basic file structure of `local content`.
