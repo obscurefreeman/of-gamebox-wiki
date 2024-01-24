@@ -2,6 +2,8 @@
 
 将你的画面投射到任何模型上。
 
+![](https://obscureimage.netlify.app/posts/20240122194717_1.jpg)
+
 ## 文件结构
 
 这是**实体**的基本结构。

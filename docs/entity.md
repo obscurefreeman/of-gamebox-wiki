@@ -2,6 +2,8 @@
 
 Play games on any model.
 
+![](https://obscureimage.netlify.app/posts/20240122194717_1.jpg)
+
 ## File structure
 
 This is the basic file structure of **entity**.
