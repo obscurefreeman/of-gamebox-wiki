@@ -10,4 +10,5 @@
 
 ## How to use
 
-In sandbox mode, you can open it by holding down the C key and tapping the gamebox icon. In other gamemode, you can also type the command `of_mgmenu` to open it.
+In sandbox mode, you can open it by holding down the C key and clicking the gamebox icon. In other gamemode, you can also type the command `of_mgmenu` to open it.
+

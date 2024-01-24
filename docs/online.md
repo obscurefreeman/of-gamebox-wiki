@@ -17,7 +17,7 @@ This is the basic file structure of `online content`.
             └─ your_online_game3.png
 ```
 
-This is the basic file structure of `website`.
+This is the basic file structure of a `website`.
 
 ```
 .
