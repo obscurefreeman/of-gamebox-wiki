@@ -12,9 +12,9 @@
 └─ materials/
     └─ entities/
         └─ ofmg_games/
-            └─ your_online_game1.png
-            └─ your_online_game2.png
-            └─ your_online_game3.png
+           └─ your_online_game1.png
+              └─ your_online_game2.png
+              └─ your_online_game3.png
 ```
 
 这是**网站**的基本结构。
@@ -26,10 +26,10 @@
 |     └─ your_websites_info.lua
 └─ materials/
     └─ entities/
-        └─ ofmg_websites/
-            └─ your_website1.png
-            └─ your_website2.png
-            └─ your_website3.png
+       └─ ofmg_websites/
+          └─ your_website1.png
+          └─ your_website2.png
+          └─ your_website3.png
 ```
 
 ## 填写扩展信息
