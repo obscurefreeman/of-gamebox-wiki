@@ -4,10 +4,10 @@
 
 ![](https://obscureimage.netlify.app/posts/20240123212316_1.jpg)
 
-1. With built-in instructions, easy to use.
-2. Beautiful interface, compatible with screens of different resolutions.
-3. It has an intuitive diagnostics page to help you quickly troubleshoot problems.
-4. Expandable, which means you can make your game packs and add tons of custom games.
+1. With built-in instructions, **easy to use**.
+2. Beautiful interface, **compatible** with screens of different resolutions.
+3. It has an intuitive **diagnostics** page to help you quickly troubleshoot problems.
+4. **Expandable**, which means you can **make your game packs** and add tons of custom games.
 5. The official screen extension has been released, which can play any mini-games on one screen.
 
 ![Subscriptions](https://img.shields.io/steam/subscriptions/3139202986?style=for-the-badge&color=b4e419)  ![Downloads](https://img.shields.io/steam/downloads/3139202986?style=for-the-badge&color=00adb5)  ![Views](https://img.shields.io/steam/views/3139202986?style=for-the-badge&color=ff5719)
