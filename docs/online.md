@@ -1,5 +1,7 @@
 # Add online content
 
+![](https://obscureimage.netlify.app/posts/20240114193259_1.jpg)
+
 ## File structure
 
 This is the basic file structure of `online content`.

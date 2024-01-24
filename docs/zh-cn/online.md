@@ -1,5 +1,7 @@
 # 添加在线内容
 
+![](https://obscureimage.netlify.app/posts/20240114193259_1.jpg)
+
 ## 文件结构
 
 这是**在线游戏**的基本结构。

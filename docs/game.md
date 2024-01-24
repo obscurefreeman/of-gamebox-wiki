@@ -1,5 +1,7 @@
 # Add local content
 
+![](https://obscureimage.netlify.app/posts/20240114192608_1.jpg)
+
 ## File structure
 
 This is the basic file structure of `local content`.
