@@ -4,7 +4,7 @@ Play games on any model.
 
 ## File structure
 
-This is the basic file structure of `entity`.
+This is the basic file structure of **entity**.
 
 ```
 .
@@ -33,7 +33,7 @@ OFMGCustomExtensions["Your Entity"] = {
 
 ## Write entity code
 
-Get the activated games and determine whether it's online or local content.
+Get the activated games and determine whether it's **online** or **local** content.
 
 
 ```lua

@@ -12,7 +12,7 @@ My gamebox has received a fair amount of attention since its release. So I creat
 
 1. In your extension file, create a new table for `OFMGCustomExtensions` and name it. To avoid conflicts with other people's extensions, please try to name it with a unique name, adding your own username's initials is a good idea. 
 
-2. In this table, add information about the extension.
+2. Add information about the extension.
 
 `Type`: Specify the type of the extension. For example, `Entity` means that the extension is an entity, `Game` means that it is a game, `Game online` means that it is an online game, `Website` means that it is a website.
 

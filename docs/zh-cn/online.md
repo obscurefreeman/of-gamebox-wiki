@@ -1,6 +1,8 @@
+# 添加在线内容
+
 ## 文件结构
 
-这是**在线游戏**的基本结构
+这是**在线游戏**的基本结构。
 
 ```
 .
@@ -15,7 +17,7 @@
             └─ your_online_game3.png
 ```
 
-这是**网站**的基本结构
+这是**网站**的基本结构。
 
 ```
 .
@@ -34,7 +36,7 @@
 
 在`ofmg_extensions`文件夹下创建一个`lua`文件，并尽量用一个独特的名字来命名，以免和别人的扩展冲突。在这个文件里，给`OFMGCustomExtensions`创建一个新的表，并为其命名。同理，给这个表起一个独特的名字。
 
-这是**在线游戏**的扩展信息示例
+这是**在线游戏**的扩展信息示例。
 
 ```lua
 OFMGCustomExtensions["Your Online Game"] = {
@@ -45,7 +47,7 @@ OFMGCustomExtensions["Your Online Game"] = {
 }
 ```
 
-这是**网站**的扩展信息示例
+这是**网站**的扩展信息示例。
 
 ```lua
 OFMGCustomExtensions["Your Website"] = {

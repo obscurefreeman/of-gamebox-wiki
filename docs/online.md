@@ -36,7 +36,7 @@ This is the basic file structure of `website`.
 
 Create a `lua` file in the `ofmg_extensions` folder, and try to name it with a unique name to avoid conflict with other people's extensions. In this file, create a new table for `OFMGCustomExtensions` and give it a name. Likewise, give this table a unique name.
 
-This is an example of extension information for **Online Games**
+This is an example of extension information for **Online Games**.
 
 ```lua
 OFMGCustomExtensions["Your Online Game"] = {
@@ -47,7 +47,7 @@ OFMGCustomExtensions["Your Online Game"] = {
 }
 ```
 
-This is an example of extension information for **Website**
+This is an example of extension information for **Website**.
 
 ```lua
 OFMGCustomExtensions["Your Website"] = {

@@ -15,6 +15,28 @@
   <style>
     :root {
       /* --theme-hue: 325; */
+      /* --of-darker-color: #17181c;
+      --of-dark-color: #24252b; */
+      --of-darker-color: #25272e;
+      --of-dark-color: #2b2c33;
+      --mono-tint3: var(--of-dark-color);
+      --theme-color: #a391ff;
+      --base-background-color: var(--of-darker-color);
+      --sidebar-background: var(--of-darker-color);
+      --blockquote-background: var(--of-dark-color);
+      --code-inline-color: #20f0c3;
+      --code-inline-background: var(--of-dark-color);
+      --code-theme-background: var(--of-dark-color);
+
+      --sidebar-toggle-background: var(--of-dark-color);
+      --search-background: var(--of-dark-color);
+      --search-input-background-color: var(--of-dark-color);
+      --search-input-background-color--focus: var(--of-dark-color);
+
+      --link-color: #ff7300;
+
+      --strong-color: #ff6666;
+      
     }
   </style>
 </head>
@@ -28,17 +50,33 @@
       repo: '',
       loadSidebar: true,
       subMaxLevel: 6,
-      loadNavbar: true
+      loadNavbar: true,
+      coverpage: ['/', '/zh-cn/'],
+      // plugins: [
+      //   EditOnGithubPlugin.create('https://github.com/obscurefreeman/of-gamebox-wiki/blob/main/docs/')
+      // ],
+      // tabs: {
+      //   persist    : true,      // default
+      //   sync       : true,      // default
+      //   theme      : 'classic', // default
+      //   tabComments: true,      // default
+      //   tabHeadings: true       // default
+      // }
     };
   </script>
 
-  <!-- Required -->
+
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
 
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-lua.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script> -->
 </body>
 </html>

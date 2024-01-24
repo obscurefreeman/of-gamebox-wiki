@@ -50,7 +50,7 @@ After modifying the files, don’t forget to change the suffix of the `css` file
 
 Create a `lua` file in the `ofmg_extensions` folder, and try to name it with a unique name to avoid conflict with other people's extensions. In this file, create a new table for `OFMGCustomExtensions` and give it a name. Likewise, give this table a unique name.
 
-Only **one** HTML file
+Only **one** HTML file.
 
 ```lua
 OFMGCustomExtensions["Your Local Game"] = {
@@ -61,7 +61,7 @@ OFMGCustomExtensions["Your Local Game"] = {
 }
 ```
 
-Contains **multiple** HTML files
+Contains **multiple** HTML files.
 
 ```lua
 OFMGCustomExtensions["Your Multi-file Local Game"] = {
