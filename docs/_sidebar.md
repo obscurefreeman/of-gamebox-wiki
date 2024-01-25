@@ -1,6 +1,7 @@
 
 
 * [Home]()
+* [Configuration](configuration)
 * [Make extensions](extensions)
 * [Add local content](game)
 * [Add online content](online)

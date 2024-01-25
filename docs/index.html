@@ -39,7 +39,11 @@
       --link-color: #a391ff;
 
       --strong-color: #ff6666;
+
+      --copycode-background: #36373f
       
+
+      /* --mono-tint1: #4b4c56; */
     }
   </style>
 </head>
@@ -66,7 +70,25 @@
       //   tabComments: true,      // default
       //   tabHeadings: true       // default
       // }
+      copyCode: {
+        buttonText: {
+          '/zh-cn/': '点击复制',
+          '/': 'Copy to clipboard',
+        },
+        errorText: {
+          '/zh-cn/': '错误',
+          '/': 'Error',
+        },
+        successText: {
+          '/zh-cn/': '复制成功',
+          '/': 'Copied',
+        },
+      },
     };
+    window.$docsify.customPageTitle = {
+        prefix:     false,      // [optional] title prefix. default: false eg: prefix: "Application"
+        suffix:     "OF Gamebox",      // [optional] title suffix. default: false eg: suffix: "v1.0.0"
+    }
   </script>
 
 
@@ -82,5 +104,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script> -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script> -->
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@2.x/dist/plugin.min.js"></script>
 </body>
 </html>
