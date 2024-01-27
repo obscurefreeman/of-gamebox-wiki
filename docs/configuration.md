@@ -1,5 +1,7 @@
 # Configuration
 
+Nikolai_ has made a [mod recommendation](https://www.bilibili.com/video/BV1cQ4y1w7vG/) on Bilibili, which introduces how to configure the gamebox.
+
 ## Subscribe HTML Loader
 
 This gamebox uses **HTML Loader** to load local `html`, `CSS`, and `js` files. Please go to [Workshop Page](https://steamcommunity.com/workshop/filedetails/?id=2998621113) to subscribe to this addon. If you want to know how it works, you can go to its [Github page](https://github.com/Periapsises/gm_html_loader), this addon is open source.

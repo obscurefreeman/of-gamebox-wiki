@@ -1,5 +1,7 @@
 # 配置
 
+Nikolai_在B站上制作了一篇[模组推荐](https://www.bilibili.com/video/BV1cQ4y1w7vG/)，其中介绍了如何配置游戏盒，你可以去看看。
+
 ## 订阅 HTML Loader
 
 本游戏盒使用 **HTML Loader** 来载入本地的`html`，`css`和`js`文件，请前往[工坊页面](https://steamcommunity.com/workshop/filedetails/?id=2998621113)订阅这个插件。如果你想研究它的原理，可以前往它的[Github页面](https://github.com/Periapsises/gm_html_loader)，这个插件是开源的。
