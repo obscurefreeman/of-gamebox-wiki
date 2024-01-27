@@ -2,6 +2,9 @@
 
 * [首页](zh-cn/)
 * [配置](zh-cn/configuration)
+* [屏幕](zh-cn/screen)
+* [Q&A](zh-cn/q&a)
+* **开发**
 * [制作扩展](zh-cn/extensions)
 * [添加本地内容](zh-cn/game)
 * [添加在线内容](zh-cn/online)

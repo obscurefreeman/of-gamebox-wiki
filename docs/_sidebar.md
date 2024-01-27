@@ -2,6 +2,9 @@
 
 * [Home]()
 * [Configuration](configuration)
+* [Game Screen](screen)
+* [Q&A](q&a)
+* **Development**
 * [Make extensions](extensions)
 * [Add local content](game)
 * [Add online content](online)

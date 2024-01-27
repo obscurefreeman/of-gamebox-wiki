@@ -1,6 +1,6 @@
 # Configuration
 
-Nikolai_ has made a [mod recommendation](https://www.bilibili.com/video/BV1cQ4y1w7vG/) on Bilibili, which introduces how to configure the gamebox.
+**Nikolai_** has made a [mod recommendation](https://www.bilibili.com/video/BV1cQ4y1w7vG/) on Bilibili, which introduces how to configure the gamebox.
 
 ## Subscribe HTML Loader
 

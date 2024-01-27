@@ -1,6 +1,6 @@
 # 配置
 
-Nikolai_在B站上制作了一篇[模组推荐](https://www.bilibili.com/video/BV1cQ4y1w7vG/)，其中介绍了如何配置游戏盒，你可以去看看。
+**Nikolai_** 在B站上制作了一篇[模组推荐](https://www.bilibili.com/video/BV1cQ4y1w7vG/)，其中介绍了如何配置游戏盒，你可以去看看。
 
 ## 订阅 HTML Loader
 
