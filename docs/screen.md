@@ -6,7 +6,7 @@ The "OF Gamebox" addon's ease of use and innovative nature have made it a popula
 
 ## Instructions
 
-First, subscribe to the Gamebox and HTML Loader addon. Switch your branch to x86-64-Chromium+64-bit binaries. Then you can hold down the C key and click on the gamebox icon, then right-click on the game you want to play and select "Play on screen" in the drop-down menu. Next, you just need to go to the Entities tab in the extensions menu and select the "Game Screen" entity to generate a screen.
+First, subscribe to the Gamebox and HTML Loader addon. Switch your branch to x86-64-Chromium+64-bit binaries. Then you can hold down the C key and click on the gamebox icon, then right-click on the game you want to play and select "Play on screen" in the drop-down menu. Next, you just need to go to the Entities tab in the extensions menu and select the "Game Screen" entity to generate a screen. Also, this screen only supports playing at 1920*1080 resolution. If you use other resolutions, there will be issues with screen and model alignment.
 
 ## Customize
 

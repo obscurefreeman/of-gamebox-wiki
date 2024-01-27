@@ -34,3 +34,8 @@ Finish the extension's writing, save it and test it locally. Once the testing is
 
 When players have installed your extension, they can use the extension you made by visiting the corresponding tab on the extension page.
 
+## Creation Convention
+
+1. Don't post extensions with phishing sites, as doing so may compromise users' safety.
+2. Don't post inappropriate content, including sensitive topics or unhealthy content.
+
