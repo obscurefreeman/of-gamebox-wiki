@@ -2,7 +2,7 @@
 
 将你的画面投射到任何模型上。
 
-![](https://obscureimage.netlify.app/posts/20240122194717_1.jpg)
+![](https://s2.loli.net/2024/01/26/VHx83KYgzX4idOq.jpg)
 
 ## 文件结构
 

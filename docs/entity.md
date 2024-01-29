@@ -2,7 +2,7 @@
 
 Play games on any model.
 
-![](https://obscureimage.netlify.app/posts/20240122194717_1.jpg)
+![](https://s2.loli.net/2024/01/26/VHx83KYgzX4idOq.jpg)
 
 ## File structure
 

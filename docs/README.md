@@ -2,7 +2,7 @@
 
 > Play any HTML5 game in Gmod, anytime, anywhere.
 
-![](https://obscureimage.netlify.app/posts/20240123212316_1.jpg)
+![](https://s2.loli.net/2024/01/26/UVu9e24SdF5wi3a.jpg)
 
 1. With built-in instructions, **easy to use**.
 2. Beautiful interface, **compatible** with screens of different resolutions.
@@ -18,4 +18,4 @@
 
 In sandbox mode, you can open it by holding down the C key and clicking the gamebox icon. In other gamemode, you can also type the command `of_mgmenu` to open it.
 
-![](https://obscureimage.netlify.app/posts/20240116202110_1.jpg)
+![](https://s2.loli.net/2024/01/26/dPlzZaMtpfmVICe.jpg)

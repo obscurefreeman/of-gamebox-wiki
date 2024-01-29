@@ -10,11 +10,11 @@
 
 1，在 Steam 中右键单击 Gmod，然后选择**属性**。
 
-![img](https://obscureimage.netlify.app/posts/8db6dc54aad92ca.png)
+![img](https://s2.loli.net/2024/01/26/o94VfcRpOkTzKEF.png)
 
 2，转到测试版选项卡，从下拉列表中选择 **x86-64-Chromium+64-bit binaries**。
 
-![img](https://obscureimage.netlify.app/posts/2882777333_preview_64bit-3.png)
+![img](https://s2.loli.net/2024/01/26/1Uyfb3B2goEdOvl.png)
 
 3，静候测试版下载完毕。
 
@@ -23,11 +23,11 @@
 CEFCodecFix 能自动修补 Garry's Mod 的内部 Chromium 嵌入式框架，安装完这个插件后，你就可以运行更高级的游戏。
 
 1. 进入Github上的 GModCEFCodecFix [发布页面](https://github.com/solsticegamestudios/GModCEFCodecFix/releases/tag/20230929)，下载最新版本。
-![img](https://obscureimage.netlify.app/posts/vWRi3cu.png)
+![img](https://s2.loli.net/2024/01/26/jXcsw1pt6IZxVGh.png)
 2. 你会得到一个名叫 `GModCEFCodecFix-Windows.exe` 的文件，打开这个文件就会自动进行安装。
-![img](https://obscureimage.netlify.app/posts/O21OB6u.png)
+![img](https://s2.loli.net/2024/01/26/3P4nKVfQOm8MAvp.png)
 3. 当出现这个提示时，CEF的安装就完成了。
-![img](https://obscureimage.netlify.app/posts/i4sZAMi.png)
+![img](https://s2.loli.net/2024/01/26/XiDQxOYzZqcWVA1.png)
 
 在这个步骤中，请注意：
 

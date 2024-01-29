@@ -10,11 +10,11 @@ This gamebox uses **HTML Loader** to load local `html`, `CSS`, and `js` files. P
 
 1，Right-click on Garry's Mod in Steam and select **Properties**.
 
-![img](https://obscureimage.netlify.app/posts/8db6dc54aad92ca.png)
+![img](https://s2.loli.net/2024/01/26/o94VfcRpOkTzKEF.png)
 
 2，Go to the Betas tab and select **x86-64-Chromium+64-bit binaries** from the dropdown.
 
-![img](https://obscureimage.netlify.app/posts/2882777333_preview_64bit-3.png)
+![img](https://s2.loli.net/2024/01/26/1Uyfb3B2goEdOvl.png)
 
 3，Wait for the beta to finish downloading.
 
@@ -23,11 +23,11 @@ This gamebox uses **HTML Loader** to load local `html`, `CSS`, and `js` files. P
 CEFCodecFix automatically patches Gmod's internal Chromium Embedded Framework, so you can run more advanced games after installing it.
 
 1. Go to GModCEFCodecFix [release page](https://github.com/solsticegamestudios/GModCEFCodecFix/releases/tag/20230929) on Github to download the latest version.
-![img](https://obscureimage.netlify.app/posts/vWRi3cu.png)
+![img](https://s2.loli.net/2024/01/26/jXcsw1pt6IZxVGh.png)
 2. You will get a file named `GModCEFCodecFix-Windows.exe`, run it.
-![img](https://obscureimage.netlify.app/posts/O21OB6u.png)
+![img](https://s2.loli.net/2024/01/26/3P4nKVfQOm8MAvp.png)
 3. When this prompt appears, the installation of the CEF is complete.
-![img](https://obscureimage.netlify.app/posts/i4sZAMi.png)
+![img](https://s2.loli.net/2024/01/26/XiDQxOYzZqcWVA1.png)
 
 In this step, please note:
 

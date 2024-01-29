@@ -20,7 +20,7 @@ My gamebox has received a fair amount of attention since its release. So I creat
 
 `Image`：Specify the name of the preview image, don't fill it if the extension is an entity, the gamebox will automatically read the entity preview image with the same name from the entities folder.
 
-`Compatible`：Indicates whether or not the extension is compatible with Gmods that do not have the CEF installed. If it is compatible, set its value to `true`, otherwise, set it to `false`.
+`Compatible`：Indicates whether or not the extension is compatible with Gmods that do not have the CEF installed. If it is compatible, set its value to `true`, otherwise, set it to `false`. (Abandoned)
 
 3. Prepare the preview image of the extension.
 

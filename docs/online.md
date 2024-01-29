@@ -1,6 +1,6 @@
 # Add online content
 
-![](https://obscureimage.netlify.app/posts/20240114193259_1.jpg)
+![](https://s2.loli.net/2024/01/26/BqfYC37lePSA9wO.jpg)
 
 ## File structure
 

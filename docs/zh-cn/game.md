@@ -1,6 +1,6 @@
 # 添加本地内容
 
-![](https://obscureimage.netlify.app/posts/20240114192608_1.jpg)
+![](https://s2.loli.net/2024/01/26/VZtdgaEfuvclrjJ.jpg)
 
 ## 获取内容
 

@@ -2,7 +2,7 @@
 
 > 随时随地，在Gmod中游玩任何HTML5游戏。
 
-![](https://obscureimage.netlify.app/posts/20240123212316_1.jpg)
+![](https://s2.loli.net/2024/01/26/UVu9e24SdF5wi3a.jpg)
 
 1. 打开即用，自带说明，**易用性强**。
 2. 美观的界面，**兼容**不同分辨率的屏幕。
@@ -19,4 +19,4 @@
 
 在沙盒模式中，按住C键并点击游戏盒图标即可打开游戏盒。在非沙盒模式中，你也可以输入指令`of_mgmenu`打开它。
 
-![](https://obscureimage.netlify.app/posts/20240116202110_1.jpg)
+![](https://s2.loli.net/2024/01/26/dPlzZaMtpfmVICe.jpg)
