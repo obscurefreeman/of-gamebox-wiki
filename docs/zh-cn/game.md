@@ -68,8 +68,6 @@ OFMGCustomExtensions["Your Local Game"] = {
     ["Type"] = "Game",--扩展的类型为本地游戏
     ["Info"] = "your_local_game.html",--游戏位置
     ["Image"] = "your_local_game",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
-    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
-}
 ```
 
 含有**多个**HTML文件。
@@ -79,6 +77,4 @@ OFMGCustomExtensions["Your Multi-file Local Game"] = {
     ["Type"] = "Game",--扩展的类型为本地游戏
     ["Info"] = "your_multifile_local_game/index.html",--游戏位置
     ["Image"] = "your_multifile_local_game",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
-    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
-}
 ```

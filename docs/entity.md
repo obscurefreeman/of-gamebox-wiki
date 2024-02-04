@@ -29,8 +29,6 @@ Create a `lua` file in the `ofmg_extensions` folder. Here I name it `your_entity
 OFMGCustomExtensions["Your Entity"] = {
     ["Type"] = "Entity",--Its type is entity.
     ["Info"] = "your_entity",--Fill in the name of your entity.
-    ["Compatible"] = true,--Is it compatible with Gmod without CEF installed?
-}
 ```
 
 ## Write entity code

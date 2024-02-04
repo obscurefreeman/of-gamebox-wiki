@@ -45,8 +45,6 @@ OFMGCustomExtensions["Your Online Game"] = {
     ["Type"] = "Game online",--Its type is online game.
     ["Info"] = "https://online-game/",--Game websites.
     ["Image"] = "your_online_game1",--Name of the image. Please put the 128*128 preview image in the entities/ofmg_games folder.
-    ["Compatible"] = true,--Is it compatible with Gmod without CEF installed?
-}
 ```
 
 This is an example of extension information for **Website**.
@@ -56,6 +54,4 @@ OFMGCustomExtensions["Your Website"] = {
     ["Type"] = "Website",--Its type is website.
     ["Info"] = "https://your-website/",--Website link.
     ["Image"] = "your_website1",--Name of the image. Please put the 128*128 preview image in the entities/ofmg_games folder.
-    ["Compatible"] = true,--Is it compatible with Gmod without CEF installed?
-}
 ```

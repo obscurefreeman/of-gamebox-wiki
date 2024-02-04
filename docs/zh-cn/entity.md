@@ -29,8 +29,6 @@
 OFMGCustomExtensions["Your Entity"] = {
     ["Type"] = "Entity",--类型为实体
     ["Info"] = "your_entity",--填写你的实体名称
-    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
-}
 ```
 
 ## 撰写实体代码

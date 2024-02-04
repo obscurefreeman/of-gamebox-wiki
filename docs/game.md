@@ -68,8 +68,6 @@ OFMGCustomExtensions["Your Local Game"] = {
     ["Type"] = "Game",--Its type is local game.
     ["Info"] = "your_local_game.html",--Location of the game.
     ["Image"] = "your_local_game",--Name of the image. Please put the 128*128 preview image in the entities/ofmg_games folder.
-    ["Compatible"] = true,--Is it compatible with Gmod without CEF installed?
-}
 ```
 
 Contains **multiple** HTML files.
@@ -79,6 +77,4 @@ OFMGCustomExtensions["Your Multi-file Local Game"] = {
     ["Type"] = "Game",---Its type is local game.
     ["Info"] = "your_multifile_local_game/index.html",--Location of the game.
     ["Image"] = "your_multifile_local_game",--Name of the image. Please put the 128*128 preview image in the entities/ofmg_games folder.
-    ["Compatible"] = true,--Is it compatible with Gmod without CEF installed?
-}
 ```

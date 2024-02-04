@@ -45,8 +45,6 @@ OFMGCustomExtensions["Your Online Game"] = {
     ["Type"] = "Game online",--扩展的类型为在线游戏
     ["Info"] = "https://online-game/",--玩游戏的网站
     ["Image"] = "your_online_game1",--图片的名称，请将128*128预览图放在entities/ofmg_games文件夹里
-    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
-}
 ```
 
 这是**网站**的扩展信息示例。
@@ -56,6 +54,4 @@ OFMGCustomExtensions["Your Website"] = {
     ["Type"] = "Website",--扩展的类型为网站
     ["Info"] = "https://your-website/",--网站链接
     ["Image"] = "your_website1",--图片的名称，请将128*128预览图放在entities/ofmg_websites文件夹里
-    ["Compatible"] = true,--能否兼容没有安装CEF的Gmod
-}
 ```
