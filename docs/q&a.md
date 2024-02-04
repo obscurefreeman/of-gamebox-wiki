@@ -12,7 +12,7 @@ A: This gamebox contains some 3D FPS games. While playing these games, you may e
 
 **Q:  Will my friend in multiplayer be able to see the screen while I play it?**
 
-A:  It's theoretically possible, but I haven't tried it.
+A:  Unfortunately, they can't see it.
 
 **Q: The resolution on the screen is not fitting.**
 
